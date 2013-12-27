@@ -1,0 +1,67 @@
+(DONE)timer example
+- need timer api
+https://github.com/kevinm416/kevinm416.github.com/blob/master/code/tetris/tetris.py
+- solution: ./example/timer/simpleTimer.py
+
+
+(DONE)Gradients
+- need graphics api in wxPython(Canvas?)
+- solution: ./example/gradients/Example.py
+
+
+(DONE)Play Sound
+- need wave file play
+- mp3 file, ogg file
+- check it out: http://www.blog.pythonlibrary.org/2010/04/20/wxpython-creating-a-simple-mp3-player/
+ http://blog.tankorsmash.com/?p=321
+- solution: sudo apt-get install mpg123 + hal interface
+
+
+(DONE)Record
+- need sound record api
+- solution : hal interface sox
+
+Aging
+- need video player
+http://www.blog.pythonlibrary.org/2010/07/24/wxpython-creating-a-simple-media-player/
+
+
+(DONE)pass daata between wx.Frames
+- need pass data between wx.Frames
+- solution: Publisher
+  http://www.blog.pythonlibrary.org/2010/06/27/wxpython-and-pubsub-a-simple-tutorial/
+
+(DONE)Barcode
+- need CODE_128 Barcode lib 
+- solution 
+  https://gist.github.com/ekarulf/701416
+
+
+(DONE)Swig target device check
+- check configure, make, make install 
+
+StartUp program
+- make ubuntu startup program
+
+HAL check
+ - need hal api list
+
+
+native event to python
+ - custom event 
+ - http://stackoverflow.com/questions/2889255/return-value-from-wxpython-frame
+
+
+csv file write
+ - lib
+ - test result frame
+
+UI feedback
+ - button font size
+ - barcode image
+
+#############################################################
+information
+
+sample barcode make 
+http://www.terryburton.co.uk/barcodewriter/generator/
